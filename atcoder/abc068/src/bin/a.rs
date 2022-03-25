@@ -1,3 +1,10 @@
+use proconio::input;
+
 fn main() {
-    unimplemented!();
+    input! {
+        n: String,
+    }
+
+    let title = "ABC".to_string() + &n;
+    println!("{}", title);
 }
