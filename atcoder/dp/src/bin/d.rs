@@ -5,7 +5,7 @@ use proconio::input;
 
 // dp[i][j]: iまでの荷物を選んで、容量をj以下とした時の価値の最大値
 // i in [1, n]
-// j in [1, w]5 5
+// j in [1, w]
 fn main() {
     input! {
         n: usize,
