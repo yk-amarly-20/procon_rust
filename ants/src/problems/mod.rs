@@ -3,3 +3,4 @@ pub mod ants;
 pub mod coin;
 pub mod scheduling;
 pub mod best_cow_line;
+pub mod saruman_army;
